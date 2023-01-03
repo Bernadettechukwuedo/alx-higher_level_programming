@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for num in range(0, 99):
-    print(num, "=", hex(num))
+    print("{:d}".format(num), "=", hex(num))
